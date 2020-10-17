@@ -18,10 +18,12 @@ echo "Website files backed up and moved to /home/bitnami/apps/wordpress/website-
 
 echo "Backing up database..."
 
-mysqldump -u root -pXXXXXXX bitnami_wordpress > database-backup-$date.sql
+sudo mysqldump -u root -pXXXXXXX bitnami_wordpress > database-backup-$date.sql
 
 sudo mv database-backup-$date.sql /home/bitnami/apps/wordpress/website-backups
 
 echo "Database backed up and moved to /home/bitnami/apps/wordpress/website-backups"
 
 echo "Backup complete!"
+
+exit
