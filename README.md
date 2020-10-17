@@ -12,3 +12,5 @@ How to use it?
 Enjoy!
 
 Let me know if you want me to make any more updates. 
+
+NOTE: you may notice that you will receive a warning message if you enter in your password in the mysqldump command. This is up to you if you want to do this of course.
