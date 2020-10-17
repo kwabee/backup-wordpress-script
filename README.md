@@ -3,7 +3,7 @@ A little script I made that enables you to backup your wordpress files and datab
 
 How to use it?
 
-1. Log onto terminal.
+1. Log onto terminal as root. e.g "sudo su"
 2. Copy the script to the root of your website directory.
 3. Edit the run-website-backup.sh
 4. Make the neccessary changes to the directory and password etc.
